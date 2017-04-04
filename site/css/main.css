@@ -1,0 +1,200 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background-color: #e5e5e5;
+	font-size: 62.5%;
+}
+
+.wrapper {
+	max-width: 1264px;
+	background-color: #fff;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.header {
+	display: flex;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+	background-color: #000;
+	color: #fff;
+	font-size: 1.4em;
+	text-align: center;
+	margin-top: 35px;
+	margin-left: 35px;
+}
+
+.main-menu {
+	display: flex;
+}
+
+.main-menu ul {
+	display: flex;
+	list-style-type:none; 
+	margin-top:50px; 
+}
+
+.main-menu ul li {
+	font-size: 1.4em;
+	margin-left:65px; 
+}
+
+.main-menu ul li a {
+	color:#303030;
+	text-decoration: none;
+}
+
+.login-form  {
+	display: flex;
+	margin-top:46px;
+	margin-left:275px;  
+}
+
+.login-form a {
+	margin-left:10px;
+	margin-right:50px; 
+	font-size:1.4em; 
+	color:#303030;
+	text-decoration: none; 
+}
+
+.login-form .search {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #959595;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -8px;
+}
+
+.search:hover {
+	background-color: #959595;
+}
+
+.slider {
+	width: 100%;
+	text-align: center;
+	margin-top:185px; 
+}
+
+.slider h1 {
+	text-transform: uppercase;
+	font-size: 7.2em;
+}
+
+.slider p {
+	font-size: 2.4em;
+	font-style: italic;
+	color: #606060;
+	margin-top:30px; 
+}
+
+.slider button {
+	width: 230px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #606060;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	margin-top:70px; 
+}
+
+/* Style for blocks content*/
+.main-content {
+	display: flex;
+	margin-top:155px; 
+	color: #fff;
+}
+
+.div-1 {
+	background-color: #d2d2d2;
+	width: 295px;
+	height: 600px;
+	margin-left:35px;
+	text-align: center;
+}
+
+.div-2 {
+	background-color: #bbbbbb;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+
+.div-3 {
+	background-color: #cacaca;
+	width: 300px;
+	height: 300px;
+	margin-top:240px; 
+}
+
+.div-4 {
+	background-color: #dbdbdb;
+	width: 300px;
+	height: 300px;
+}
+
+.div-5 {
+	background-color: #bbbbbb;
+	margin-top:300px;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+
+.div-6 {
+	background-color: #606060;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+
+.div-7 {
+	background-color: #d7d7d7;
+	height: 600px;
+	margin-top:258px; 
+}
+
+.div-8 {
+	background-color: #c2c2c2;
+	width: 296px;
+	height: 300px;
+	margin-top: 571px;
+
+}
+
+.div-9 {
+	background-color: #606060;
+	width: 300px;
+	height: 300px;
+}
+
+.div-10 {
+	text-align: center;
+	background-color: #d0d0d0;
+	height: 300px;
+}
+
+/* Section Sign*/
+.section-sign {
+	margin-top: 450px;
+	text-align: center;
+}
+
+.section-sign h2 {
+	text-transform: uppercase;
+}
