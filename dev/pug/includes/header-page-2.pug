@@ -6,12 +6,16 @@
 		ul
 			each linkPath, linkName in nav_header
 				li: a(href=linkPath)=linkName
-	.login-form
-		.login-menu
+	.login-form-page-2
+		.login-menu-page2
 			p 
 				img(src='img/user.png') 
-				a(href='login') Log In
+				| Hi, Michael
+				a(class='logout' href='login') (logout)
 				img(src='img/basket.png') 
-				a(href='basket') Basket (0)
-		.search
-			img(src='img/search.png')
+				a(href='basket') Basket (4)
+		.search-page-2
+			input(type='search' placeholder='Search something...')
+			button(type='button')
+
+.

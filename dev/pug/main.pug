@@ -7,7 +7,7 @@ html(lang="en")
 	body
 		.wrapper
 			include includes/header-menu.pug
-			.slider
+			.section-header
 				h1 Hazy shade of spring
 				p Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo.
 				button(type='button') Check new arrivals
@@ -17,3 +17,9 @@ html(lang="en")
 			.section-sign
 				h2 sign up to receive our updates
 				p Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat.
+				input(type='text' name='email' placeholder='Your email') 
+				button(type='button') Add
+
+			include includes/slider.pug
+
+			include includes/footer.pug
